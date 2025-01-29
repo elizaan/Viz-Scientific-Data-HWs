@@ -18,17 +18,14 @@ def visualize_brain_slices(data, colormaps=['gray', 'viridis']):
         fig, axes = plt.subplots(1, 3, figsize=(15, 5))
         fig.suptitle(f'Brain MRI Slices - {cmap} colormap')
         
-        # Plot sagittal slice
         axes[0].imshow(sagittal_slice.T, cmap=cmap)
         axes[0].set_title('Sagittal View')
         axes[0].axis('off')
         
-        # Plot coronal slice
         axes[1].imshow(coronal_slice.T, cmap=cmap)
         axes[1].set_title('Coronal View')
         axes[1].axis('off')
         
-        # Plot axial slice
         axes[2].imshow(axial_slice.T, cmap=cmap)
         axes[2].set_title('Axial View')
         axes[2].axis('off')
@@ -40,7 +37,7 @@ def visualize_brain_slices(data, colormaps=['gray', 'viridis']):
 
 
 def main():
-    filepath = 'T2.nii.gz'  # Update with your local file path
+    filepath = 'T2.nii.gz'
 
     img = nib.load(filepath)
     data = img.get_fdata()

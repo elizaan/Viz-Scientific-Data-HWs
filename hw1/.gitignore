@@ -1,2 +1,4 @@
 *.nii
 *.nii.gz
+*.mnc
+DS_Store
