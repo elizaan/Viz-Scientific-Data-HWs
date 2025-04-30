@@ -1,2 +1,16 @@
 .DS_Store
+__pycache__/
 /hw3/data/*
+venv/
+hw1/.DS_Store
+hw1/__pycache__/
+hw2/.DS_Store
+hw2/__pycache__/
+hw3/.DS_Store
+hw3/__pycache__/
+hw4/.DS_Store
+hw4/__pycache__/
+hw5/.DS_Store
+hw5/__pycache__/
+hw6/.DS_Store
+hw6/__pycache__/
