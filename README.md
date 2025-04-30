@@ -14,5 +14,5 @@ Folders:
     - HW3
     - HW4
     - HW6
-All the required pythin codes, output images, psvm files, and final reports are added inside each folder
+All the required python codes, output images, psvm files, and final reports are added inside each folder
 
