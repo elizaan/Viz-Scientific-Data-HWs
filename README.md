@@ -3,7 +3,7 @@
 Inside root folder:
 ```python -m venv venv```
 
-```source venv/bin/activate``
+```source venv/bin/activate```
 
 ```pip install numpy pandas matplotlib seaborn plotly scikit-learn```
 
